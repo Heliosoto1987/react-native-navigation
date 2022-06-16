@@ -1,4 +1,4 @@
-#  Tipado de react-native-navigation
+#  Tipado de Navigation en react-native
 
 <br />
 <br />
