@@ -9,7 +9,7 @@
 <br />
 <br />
 
-### Bienvendos a otro capitulo mas de :D 
+### Bienvenidos a otro capítulo más de :D 
 
 <br />
 <br />
