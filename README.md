@@ -30,7 +30,7 @@
 
 ![rootStack](https://user-images.githubusercontent.com/54855884/174047244-511fc668-28de-49ba-82ae-39a11ae210ce.png)
 
-### Como dice la documentación lo primero que debemos hacer es nuestra lista de pantallas.
+### Como dice la documentación lo primero que debemos hacer es nuestra lista de rutas.
 
 <br />
 <br />
@@ -46,7 +46,7 @@
 
 ![3ero-createStack](https://user-images.githubusercontent.com/54855884/174047696-c3de3da8-891e-491e-8887-07218bc92e99.png)
 
-### Luego vamos como siempre a crear nuestro StackNavigation pero ahora con el genérico de lista de nuestras pantallas.
+### Luego vamos como siempre a crear nuestro StackNavigation pero ahora con el genérico de lista de nuestras rutas.
 
 <br />
 <br />
@@ -60,7 +60,7 @@
 <br />
 
 ![5to-tipos de genericos](https://user-images.githubusercontent.com/54855884/174049258-89ce4183-f4f1-4964-8ce5-ed10aaadee8f.jpg)
-### Implementación en nuestras pantallas.
+### Implementación en nuestras rutas.
 <br />
 <br />
 <br />
