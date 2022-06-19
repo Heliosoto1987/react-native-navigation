@@ -9,8 +9,9 @@ import {BoxScreen} from '../Screens/BoxScreen';
 
 export type RootStackParamList = {
   HomeScreen: undefined;
-  LoginScreen: undefined;
+  LoginScreen: {name: string} | undefined;
   BoxScreen: undefined;
+  BoxComponentSon: undefined;
 };
 
 const {Screen, Navigator} = createNativeStackNavigator<RootStackParamList>();

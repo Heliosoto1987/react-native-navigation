@@ -1,16 +1,25 @@
 import React from 'react';
 import {View, Text, Button} from 'react-native';
 
-interface Hola {
-  navigation: any;
-}
+import type {NativeStackScreenProps} from '@react-navigation/native-stack';
+import {RootStackParamList} from '../navigation/Navigation';
 
-export const HomeScreen: React.FC<Hola> = ({navigation}) => {
+type TypeHomeScreenProps = NativeStackScreenProps<
+  RootStackParamList,
+  'HomeScreen'
+>;
+
+export const HomeScreen: React.FC<TypeHomeScreenProps> = ({navigation, route}) => {
+  console.log(route)
   return (
     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-      <Text>Home Screen</Text>
+      <Text style={{fontSize: 40}}>Home Screen</Text>
       <Button
-        onPress={() => navigation.navigate('LoginScreen', {name: 'Juan'})}
+        onPress={() =>
+          navigation.navigate('LoginScreen', {
+            name: 'Are you sure love typescript ??',
+          })
+        }
         title="Soy un boton"
         color="#841584"
         accessibilityLabel="Learn more about this purple button"
